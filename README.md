@@ -1,6 +1,7 @@
 # komo_estuary_tutorial
 Tutorial for building and running ANUGA hydrodynamic model
-
+See [Instructions!](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/0_SetupColab.ipynb) for getting started with Google Colab and Jupyter Notebooks
+<br></br>
 There are 6 tutorials:
 <br></br>
 Tutorial 0: Setup Colab<br></br>
