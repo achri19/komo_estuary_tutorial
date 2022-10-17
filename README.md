@@ -3,6 +3,7 @@ Tutorial for building and running ANUGA hydrodynamic model
 
 There are 6 tutorials:
 Tutorial 0: Setup Colab
+
 Summary: This notebook will walk through the process of installing packages, connecting to your Google Drive, signing up for Google Earth Engine, and using Google Colab (a free, online platform for running Python Jupyter Notebooks)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/0_SetupColab.ipynb)
 
