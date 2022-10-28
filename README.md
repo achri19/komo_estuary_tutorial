@@ -16,7 +16,8 @@ Summary: This notebook will introduce Google Earth Engine (via Python) and produ
 
 Tutorial 2: Build Digital Elevation Model<br></br>
 Summary: This notebook will walk through steps to build a DEM for the study area using open-source/publicly available datasets.<br></br>
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/achri19/komo_estuary_tutorial/blob/main/2_Setup_DEM.ipynb
+)<br></br>
 
 Tutorial 3: Boundary Conditions<br></br>
 Summary: This notebook will look at options for setting boundary conditions <br></br>
