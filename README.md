@@ -21,8 +21,9 @@ Summary: This notebook will walk through steps to build a DEM for the study area
 
 Tutorial 3: Boundary Conditions<br></br>
 Summary: This notebook will look at options for setting boundary conditions <br></br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/3_Get_Boundaries.ipynb
 
-
+)<br></br>
 Tutorial 4: Mesh Generator	<br></br>
 Summary: This notebook will use the ANUGA mesh generator to build an uniform, unstructured mesh for the model domain<br></br>
 
