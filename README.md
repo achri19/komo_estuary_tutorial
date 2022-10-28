@@ -11,12 +11,12 @@ Summary: This notebook will walk through the process of installing packages, con
 
 Tutorial 1: GEE Water Masks<br></br>
 Summary: This notebook will introduce Google Earth Engine (via Python) and produce water masks for the study area. This is a very time-intensive step so all output files will be provided<br></br>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/achri19/komo_estuary_tutorial/blob/main/1_GEEwatermask.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/1_GEEwatermask.ipynb
 )<br></br>
 
 Tutorial 2: Build Digital Elevation Model<br></br>
 Summary: This notebook will walk through steps to build a DEM for the study area using open-source/publicly available datasets.<br></br>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/achri19/komo_estuary_tutorial/blob/main/2_Setup_DEM.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/2_Setup_DEM.ipynb
 )<br></br>
 
 Tutorial 3: Boundary Conditions<br></br>
