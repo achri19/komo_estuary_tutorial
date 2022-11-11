@@ -26,13 +26,17 @@ Summary: This notebook will look at options for setting boundary conditions <br>
 
 Tutorial 4: Mesh Generator	<br></br>
 Summary: This notebook will use the ANUGA mesh generator to build an uniform, unstructured mesh for the model domain<br></br>
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/4_Build_ANUGA_Mesh.ipynb)
+<br></br>
 
 
 Tutorial 5: Run ANUGA<br></br>
 Summary: This notebook will run a short ANUGA simulation<br></br>
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/4_Build_ANUGA_Mesh.ipynb)
+<br></br>
 
 Tutorial 6: Post-Processing<br></br>
 Summary: This notebook will introduce ways to visualize the model output. We will also use QGIS to create animations.<br></br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/4_Build_ANUGA_Mesh.ipynb)
+<br></br>
 
