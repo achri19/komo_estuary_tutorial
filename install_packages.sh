@@ -4,6 +4,7 @@
 cd /content
 
 echo "(1) Install pip packages"
+echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats"
 pip install nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats > /dev/null 2>&1
 
 echo "(2) Install gdal"
@@ -13,6 +14,7 @@ echo "(3) Install netcdf4"
 apt-get -q -y install python-netcdf4  > /dev/null 2>&1
 
 echo "(4) Download anuga_core github repository"
+echo "https://github.com/GeoscienceAustralia/anuga_core"
 git clone --quiet https://github.com/GeoscienceAustralia/anuga_core.git  > /dev/null 2>&1
 
 echo "(5) Install anuga"
@@ -22,8 +24,8 @@ python setup.py --quiet build  > /dev/null 2>&1
 python setup.py --quiet install  > /dev/null 2>&1
 
 echo "(6) Install Orinoco"
-pip install git+https://github.com/simard-landscape-lab/orinoco.git 
+pip install -q git+https://github.com/simard-landscape-lab/orinoco.git 
 
 cd ../
 
-echo "(6) Ready to go"
+echo "(7) Completed"
