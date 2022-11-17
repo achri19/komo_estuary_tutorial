@@ -20,6 +20,10 @@ echo "(5) Install anuga"
 cd anuga_core
 python setup.py --quiet build  > /dev/null 2>&1 
 python setup.py --quiet install  > /dev/null 2>&1
+
+echo "(6) Install Orinoco"
+pip install git+https://github.com/simard-landscape-lab/orinoco.git 
+
 cd ../
 
 echo "(6) Ready to go"
