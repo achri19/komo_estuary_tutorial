@@ -4,7 +4,7 @@
 cd /content
 
 echo "(1) Install pip packages"
-pip -q install nose mpi4py triangle Pmw pymetis cmocean > /dev/null 2>&1
+pip -q install nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos > /dev/null 2>&1
 
 echo "(2) Install gdal"
 apt-get -q -y install python-gdal gdal-bin  > /dev/null 2>&1
