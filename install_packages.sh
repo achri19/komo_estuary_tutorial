@@ -25,12 +25,7 @@ python setup.py --quiet install  > /dev/null 2>&1
 
 echo "(6) Download Orinoco from github repo"
 echo "https://github.com/simard-landscape-lab/orinoco"
-git clone https://github.com/simard-landscape-lab/orinoco.git  > /dev/null 2>&1
-
-echo "(5) Install orinoco"
-
-cd orinoco
-pip install .
+! pip install git+https://github.com/simard-landscape-lab/orinoco.git
 
 cd ../
 
