@@ -15,7 +15,7 @@ apt-get -q -y install python-netcdf4  > /dev/null 2>&1
 
 echo "(4) Download anuga_core github repository"
 echo "https://github.com/GeoscienceAustralia/anuga_core"
-git clone --quiet https://github.com/GeoscienceAustralia/anuga_core.git  > /dev/null 2>&1
+git clone https://github.com/GeoscienceAustralia/anuga_core.git  > /dev/null 2>&1
 
 echo "(5) Install anuga"
 
@@ -25,7 +25,7 @@ python setup.py --quiet install  > /dev/null 2>&1
 
 echo "(6) Download Orinoco from github repo"
 echo "https://github.com/simard-landscape-lab/orinoco"
-git clone --quiet https://github.com/simard-landscape-lab/orinoco.git  > /dev/null 2>&1
+git clone https://github.com/simard-landscape-lab/orinoco.git  > /dev/null 2>&1
 
 echo "(5) Install orinoco"
 
