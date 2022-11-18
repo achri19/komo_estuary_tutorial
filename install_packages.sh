@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-cd /content
+cd /content/drive/installations
 
 echo "(1) Install pip packages"
 echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats"
