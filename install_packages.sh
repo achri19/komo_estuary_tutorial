@@ -5,7 +5,7 @@ cd /content
 
 echo "(1) Install pip packages"
 echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats"
-pip install nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats git+https://github.com/simard-landscape-lab/orinoco.git 
+pip install nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats scikit-fmm rtree pyTMD git+https://github.com/simard-landscape-lab/orinoco.git 
 
 echo "(2) Install gdal"
 apt-get -q -y install python-gdal gdal-bin  > /dev/null 2>&1
