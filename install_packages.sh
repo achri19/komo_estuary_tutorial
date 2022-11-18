@@ -5,7 +5,7 @@ cd /content
 
 echo "(6) Download Orinoco from github repo"
 echo "https://github.com/simard-landscape-lab/orinoco"
-! pip install git+https://github.com/simard-landscape-lab/orinoco.git > /dev/null 2>&1
+! pip install git+https://github.com/simard-landscape-lab/orinoco.git 
 
 echo "(1) Install pip packages"
 echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats"
