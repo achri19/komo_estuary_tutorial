@@ -27,6 +27,8 @@ cd ../
 
 echo "(6) Download Orinoco from github repo"
 echo "https://github.com/simard-landscape-lab/orinoco"
-pip install git+https://github.com/simard-landscape-lab/orinoco.git 
+git clone https://github.com/simard-landscape-lab/orinoco.git 
+cd orinoco
+pip install .
 
 echo "(7) Completed"
