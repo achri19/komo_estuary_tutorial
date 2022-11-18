@@ -24,7 +24,7 @@ python setup.py --quiet build  > /dev/null 2>&1
 python setup.py --quiet install  > /dev/null 2>&1
 
 echo "(6) Install Orinoco"
-echo "https://github.com/simard-landscape-lab/orinoco
+echo "https://github.com/simard-landscape-lab/orinoco"
 git clone --quiet https://github.com/simard-landscape-lab/orinoco.git  > /dev/null 2>&1
 
 echo "(5) Install orinoco"
