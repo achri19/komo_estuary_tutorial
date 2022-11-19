@@ -5,7 +5,7 @@ cd /content/drive/MyDrive/installations
 
 echo "(1) Install pip packages"
 echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats"
-pip install nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats scikit-fmm rtree backports.zoneinfo pyTMD git+https://github.com/simard-landscape-lab/orinoco.git
+pip -q install nose mpi4py triangle Pmw pymetis geemap cmocean geopandas fiona pygeos rasterio rasterstats scikit-fmm rtree backports.zoneinfo pyTMD git+https://github.com/simard-landscape-lab/orinoco.git > /dev/null 2>&1
 
 echo "(2) Install gdal"
 apt-get -q -y install python-gdal gdal-bin  > /dev/null 2>&1
