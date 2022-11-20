@@ -1819,7 +1819,7 @@ def make_model_foundation(path,parameters,delta,folders,ref,distance,widths,wate
         plt.savefig("%s%s_%s.png" %(folders[9],delta,elev_name))
         plt.savefig("%s/summary_figures/DEM/%s_%s.png" %(path,delta,elev_name))
 
-    return elevation2, elev_name
+    return elevation2, elev_name+'_'+str(xres)
 
 
 ############################################################################
@@ -2065,7 +2065,7 @@ def get_tidal_boundary(delta,folders,res,parameters,tide_bnd,tidey,tidex,elev_na
         df_line_tide['id_left'].values
         df_line['boundary'][df_line_tide['id_left'].values] = 'Tide'
     else:
-        df_line['mean'] = pd.DataFrame(zonal_stats(vectors = df_line['geometry'],raster = "%s/%s_%s_%s.tif" %(folders[4] + elev_name,delta,elev_name,xres),stats='mean',nodata = '-9999'))['mean']
+        df_line['mean'] = pd.DataFrame(zonal_stats(vectors = df_line['geometry'],raster = "%s/%s.tif" %(folders[4] + elev_name),stats='mean',nodata = '-9999'))['mean']
         print('\n[Step %s][Set_Boundary_Conditions][Deepest model side = downstream boundary, tidal conditions] .......\n'%(step))
         # tide = df_line.loc[df_line['mean']==min(df_line['mean'])]
         df_line['boundary'][df_line['mean']==np.nanmin(df_line['mean'])] = 'Tide'
