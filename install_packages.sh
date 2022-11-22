@@ -1,6 +1,7 @@
 
 #!/bin/bash
 
+mkdir -p /content/drive/MyDrive/
 cd /content/drive/MyDrive/installations
 
 echo "(1) Install pip packages"
