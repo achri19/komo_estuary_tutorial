@@ -5,7 +5,7 @@ mkdir -p /content/drive/MyDrive/installations
 cd /content/drive/MyDrive/installations
 
 echo "(1) Install pip packages to /content/drive/MyDrive/installations"
-echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats"
+echo "nose mpi4py triangle Pmw pymetis cmocean geopandas fiona pygeos rasterio rasterstats scikit-fmm rtree pyTMD Orinoco"
 pip -q install nose mpi4py triangle Pmw pymetis geemap cmocean geopandas fiona pygeos rasterio rasterstats scikit-fmm rtree backports.zoneinfo pyTMD git+https://github.com/simard-landscape-lab/orinoco.git > /dev/null 2>&1
 
 echo "(2) Install gdal"
