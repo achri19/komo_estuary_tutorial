@@ -1,6 +1,6 @@
 # komo estuary tutorial
 Tutorial for building and running ANUGA hydrodynamic model
-See [Instructions!](https://github.com/achri19/komo_estuary_tutorial/blob/main/Komo_ANUGA_Instructions.pdf) for getting started with Google Colab and Jupyter Notebooks
+See [Instructions!](https://github.com/achri19/komo_estuary_tutorial/blob/main/Final_Workshop_Instructions.pdf) for getting started with Google Colab and Jupyter Notebooks
 <br></br>
 
 Affiliation: Jet Propulsion Laboratory, California Institute of Technology
