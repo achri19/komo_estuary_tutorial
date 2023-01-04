@@ -3,6 +3,7 @@ Tutorial for building and running ANUGA hydrodynamic model
 See [Instructions!](https://github.com/achri19/komo_estuary_tutorial/blob/main/Final_Workshop_Instructions.pdf) for getting started with Google Colab and Jupyter Notebooks
 <br></br>
 
+Author: Alexandra Christensen
 Affiliation: Jet Propulsion Laboratory, California Institute of Technology
 Acknowledgement: The research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration (80NM0018D0004)
 <br></br>
@@ -19,7 +20,7 @@ Summary: This notebook will walk through the process of installing packages, con
 
 Tutorial 1: GEE Water Masks<br></br>
 Summary: This notebook will introduce Google Earth Engine (via Python) and produce water masks for the study area. This is a very time-intensive step so all output files will be provided<br></br>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/1_GEEwatermask.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/1_GEEwatermask.ipynb)
 <br></br>
 
 Tutorial 2: Build Digital Elevation Model<br></br>
@@ -43,4 +44,3 @@ Tutorial 6: Post-Processing<br></br>
 Summary: This notebook will introduce ways to visualize the model output. We will also use QGIS to create animations.<br></br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/achri19/komo_estuary_tutorial/blob/main/6_Post_Process.ipynb)
 <br></br>
-
